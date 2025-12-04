@@ -1,0 +1,1 @@
+Bu projede, dijital sinyalleri kullanarak analog bir çıktı simülasyonu yapmayı (PWM - Pulse Width Modulation) öğrendim. Bir LED'i sadece yakıp söndürmek yerine, parlaklığını kademeli olarak artırıp azaltarak "nefes alma" efekti oluşturdum.

@@ -1,0 +1,1 @@
+"Bu projede ADC (Analog-to-Digital Converter) kullanarak potansiyometreden gelen analog veriyi okumayı ve bu veriyi PWM sinyaline ölçekleyerek LED parlaklığını dinamik olarak kontrol etmeyi öğrendim."

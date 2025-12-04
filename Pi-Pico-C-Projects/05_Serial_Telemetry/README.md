@@ -1,0 +1,1 @@
+"Bu projede UART protokolü ve printf fonksiyonunu kullanarak, sensörlerden okunan verileri gerçek zamanlı olarak bilgisayara (Serial Monitor) aktarmayı ve gömülü sistemlerde debug/telemetri işlemlerini gerçekleştirmeyi öğrendim."

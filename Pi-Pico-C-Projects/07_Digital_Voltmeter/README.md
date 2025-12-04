@@ -1,0 +1,1 @@
+Bu projede, Raspberry Pi Pico'nun ADC (Analog-Dijital Çevirici) ve I2C birimlerini birleştirerek çalışan bir dijital voltmetre tasarladım. Sensörden gelen ham veriyi anlamlı bir voltaj değerine matematiksel olarak çevirip, `sprintf` fonksiyonu ile formatlayarak LCD ekranda gösterdim.

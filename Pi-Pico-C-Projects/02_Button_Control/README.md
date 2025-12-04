@@ -1,0 +1,1 @@
+"GPIO Input, Pull-Up direnci ve if-else yapısını öğrendim"

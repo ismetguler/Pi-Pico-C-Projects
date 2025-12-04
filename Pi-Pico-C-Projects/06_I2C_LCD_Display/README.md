@@ -1,0 +1,1 @@
+Bu projede, endüstri standardı olan **I2C haberleşme protokolünü** kullanarak 16x2 karakter LCD ekranı sürmeyi öğrendim. Ayrıca karmaşık donanım işlemlerini soyutlayan hazır "Driver" (Sürücü) fonksiyonlarını projemde nasıl kullanacağımı deneyimledim.

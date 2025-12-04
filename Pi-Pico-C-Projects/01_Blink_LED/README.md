@@ -1,0 +1,1 @@
+"GPIO Output mantığını ve sleep fonksiyonunu öğrendim"
