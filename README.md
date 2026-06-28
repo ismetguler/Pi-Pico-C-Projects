@@ -1,24 +1,29 @@
-# Raspberry Pi Pico ile Gömülü Sistemler Yolculuğum 🚀
+# 🍓 Raspberry Pi Pico — C Projects
 
-Bu depo (repository), **Raspberry Pi Pico** ve **C SDK** kullanarak sıfırdan ileri seviyeye kadar geliştirdiğim gömülü sistem projelerini içerir.
+> Embedded projects for the Raspberry Pi Pico (RP2040), written in C.
 
-## 📂 Proje Listesi ve Kazanımlar
+![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black)
+![Raspberry Pi Pico](https://img.shields.io/badge/RP2040-Pico-C51A4A?logo=raspberrypi&logoColor=white)
 
-Bu yolculukta aşağıdaki teknik aşamalar tamamlanmıştır:
+## About
 
-| No | Proje Klasörü | Konu & Kazanım |
-| :--- | :--- | :--- |
-| **01** | `01_Blink_LED` | **GPIO Output:** Dijital çıkış mantığı ve `sleep` fonksiyonları. |
-| **02** | `02_Button_Control` | **GPIO Input:** Dijital giriş okuma, `Pull-Up` direnci ve `if-else` mantığı. |
-| **03** | `03_PWM_Fade` | **PWM (Sinyal Modülasyonu):** Analog çıktı simülasyonu ile "Nefes Alan LED" efekti. |
-| **04** | `04_Potentiometer_ADC` | **ADC (Analog Okuma):** Potansiyometre verisini okuyup 12-bit/Voltaj dönüşümü yapma. |
-| **05** | `05_Serial_Telemetry` | **UART (Haberleşme):** `printf` ile bilgisayara (Serial Monitor) sensör verisi gönderme. |
-| **06** | `06_I2C_LCD_Display` | **I2C Protokolü:** 16x2 LCD ekranı sürücü (driver) fonksiyonları ile kontrol etme. |
-| **07** | `07_Digital_Voltmeter` | **Sensor Fusion:** ADC ve I2C'yi birleştirerek çalışan bir dijital voltmetre tasarımı. |
-| **08** | `08_Reflex_Game_Interrupts` | **Interrupts (Kesmeler):** Donanım kesmeleri ile milisaniye hassasiyetinde refleks ölçümü. |
+A set of hands-on embedded-systems projects on the **Raspberry Pi Pico (RP2040)** using the C/C++ SDK — peripherals, sensors and microcontroller fundamentals.
 
-## 🛠️ Kullanılan Teknolojiler ve Donanımlar
-* **Kart:** Raspberry Pi Pico (RP2040)
-* **Dil:** C (Pico SDK)
-* **Simülasyon:** Wokwi
-* **Donanımlar:** LED, Push Button, Potansiyometre, LCD1602 (I2C Modüllü).
+## Topics
+
+- 🔌 GPIO, PWM, ADC
+- 📡 I2C / SPI / UART communication
+- 🌡️ Sensor interfacing
+- ⏱️ Timers & interrupts
+
+## Tech stack
+
+- **C** (Raspberry Pi Pico SDK)
+- **CMake** build system
+
+## Build
+
+Follow the Raspberry Pi Pico C/C++ SDK setup, then build with CMake and flash the generated `.uf2` to the Pico.
+
+---
+Made by [İsmet Güler](https://github.com/ismetguler) · [Portfolio](https://ismetguler.github.io)
